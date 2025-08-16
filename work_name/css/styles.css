@@ -1,10 +1,10 @@
-.play__bottom{
+.play__bottom, .pause__bottom{
   border: none;
   color: white;
   background-color: transparent;
 }
 
-.play__bottom:hover{
+.play__bottom:hover, .pause__bottom:hover{
   cursor: pointer;
 }
 
