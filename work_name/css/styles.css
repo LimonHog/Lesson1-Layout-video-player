@@ -1,6 +1,11 @@
 .play__bottom{
   border: none;
 }
+
 .play__bottom:hover{
   cursor: pointer;
+}
+
+.botton_zone{
+  background-color: black;
 }
