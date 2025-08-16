@@ -1,6 +1,7 @@
 .play__bottom{
   border: none;
   color: white;
+  background-color: transparent;
 }
 
 .play__bottom:hover{
