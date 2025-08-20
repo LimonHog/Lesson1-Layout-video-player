@@ -1,4 +1,4 @@
-.play__bottom, .pause__bottom{
+.js-play-button, .js-pause-button{
   border: none;
   color: white;
   background-color: transparent;
@@ -7,7 +7,11 @@
   font-size: 12px;
 }
 
-.play__bottom:hover, .pause__bottom:hover{
+.js-pause-button{
+  visibility: hidden;
+}
+
+.js-play-button:hover, .js-pause-button:hover{
   cursor: pointer;
 }
 
