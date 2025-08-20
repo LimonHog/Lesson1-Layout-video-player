@@ -15,9 +15,12 @@
   background-color: black;
 }
 
-#player{
+.player{
   width: 800px;
   height: 600px;
+  box-shadow: 
+    7px -7px 10px  rgb(71, 74, 81),
+    -7px -7px 10px  rgb(71, 74, 81);
 }
 
 .js-video-container{
