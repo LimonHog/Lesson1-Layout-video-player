@@ -7,14 +7,20 @@
   font-size: 12px;
 }
 
-.js-pause-button{
-  visibility: hidden;
-}
-
 .js-play-button:hover, .js-pause-button:hover{
   cursor: pointer;
 }
 
 .botton_zone{
   background-color: black;
+}
+
+#player{
+  width: 800px;
+  height: 600px;
+}
+
+.js-video-container{
+  width: 100%;
+  height: 100%
 }
