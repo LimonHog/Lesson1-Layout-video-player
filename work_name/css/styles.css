@@ -2,6 +2,9 @@
   border: none;
   color: white;
   background-color: transparent;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
 }
 
 .play__bottom:hover, .pause__bottom:hover{
