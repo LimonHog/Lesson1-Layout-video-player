@@ -1,4 +1,4 @@
-.js-play-button, .js-pause-button{
+.player__botton{
   border: none;
   color: white;
   background-color: transparent;
@@ -15,7 +15,7 @@
   background-color: black;
 }
 
-#player{
+#player{ 
   width: 800px;
   height: 600px;
   box-shadow: 
