@@ -1,4 +1,4 @@
-.player__botton{
+.player__button{
   border: none;
   color: white;
   background-color: transparent;
@@ -8,11 +8,11 @@
   margin: 7px 7px 0px auto;
 }
 
-.js-play-button:hover, .js-pause-button:hover{
+.play_buttom:hover, .pause_buttom:hover{
   cursor: pointer;
 }
 
-.botton_zone{
+.button_zone{
   background-color: black;
   display: flex;
   flex-wrap: nowrap;
