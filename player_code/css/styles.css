@@ -2,10 +2,10 @@
   border: none;
   color: white;
   background-color: transparent;
-  width: 35px;
-  height: 35px;
-  font-size: 20px;
-  margin: 7px 7px 0px auto;
+  width: 36px;
+  height: 39.7px;
+  font-size: 19px;
+  
 }
 
 .play_buttom:hover, .pause_buttom:hover{
@@ -37,3 +37,4 @@
   display: flex;
   flex-grow: 6;
 }
+
