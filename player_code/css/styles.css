@@ -50,7 +50,12 @@
   width: 30px;
   color: white;
   font-family: "Roboto";
-  flex-grow: 0;
+  flex-grow: 1;
+}
+
+#all_time{
+  display: flex;
+  justify-content: right;
 }
 
 .time_zone{
