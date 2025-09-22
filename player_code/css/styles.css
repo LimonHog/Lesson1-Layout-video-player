@@ -11,6 +11,10 @@
   
 }
 
+.sound_button{
+  font-size: 21.8px;
+}
+
 .play_buttom:hover, .pause_buttom:hover{
   cursor: pointer;
 }
@@ -38,19 +42,38 @@
 }
 
 .slider{
-  width: 30px;
-  height: 4px;
-  flex-grow: 0.8;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.time_progress{
+  display: flex;
   background-color: red;
+  justify-content: left;
+}
+
+.time_progress, .slider{
+  width: 10px;
+  height: 4px;
+  border-radius: 30px;
+}
+
+.slider_point{
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-radius: 50%;
+  border: solid white 3.2px;
 }
 
 .video_time{
   background-color: transparent;
-  height: 20px;
+  height: 22px;
   width: 30px;
   color: white;
   font-family: "Roboto";
-  flex-grow: 1;
+  flex-grow: 0.05;
 }
 
 #all_time{
