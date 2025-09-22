@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .player__button{
   border: none;
   color: white;
@@ -16,6 +19,7 @@
   background-color: black;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 #player{ 
@@ -33,8 +37,26 @@
   flex-grow: 1;
 }
 
-.space{
-  display: flex;
-  flex-grow: 6;
+.slider{
+  width: 30px;
+  height: 4px;
+  flex-grow: 0.8;
+  background-color: red;
 }
 
+.video_time{
+  background-color: transparent;
+  height: 20px;
+  width: 30px;
+  color: white;
+  font-family: "Roboto";
+  flex-grow: 0;
+}
+
+.time_zone{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  top: -5;
+}
