@@ -7,7 +7,7 @@
 livereload player_code
 ```
 После в консоли появится ссылка. Она будет выглядить примерно так: `http://127.0.0.1`, вам нужно будет перейти по ней. После прехода вы увидите вот такой сайт:
-![alt text](2025-10-01.png)
+![alt text](2025-1001.png)
 А вот и демо [страница](https://limonhog.github.io/Lesson1-Layout-video-player/player_code/index)
 
 Чтобы понять, как происходит подключение функций к необходимым кнопкам, прочтите эту [документацию](https://github.com/devmanorg/video-player-jslib). 
