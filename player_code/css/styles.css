@@ -65,6 +65,13 @@
   background-color: red;
   border-radius: 50%;
   border: solid white 3.2px;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.time_zone:hover .slider_point{
+  opacity: 100;
+  transition: opacity 0.3s ease-in;
 }
 
 .video_time{
